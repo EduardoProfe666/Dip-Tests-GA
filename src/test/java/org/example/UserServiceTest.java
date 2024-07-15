@@ -1,9 +1,6 @@
-package src.test.java.org.example;
+package org.example;
 
 import org.junit.jupiter.api.*;
-import src.main.java.org.example.User;
-import src.main.java.org.example.UserRepository;
-import src.main.java.org.example.UserService;
 
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.List;

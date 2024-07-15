@@ -1,10 +1,10 @@
-package src.test.java.org.example;
+package org.example;
 
 import org.junit.jupiter.api.*;
-import src.main.java.org.example.*;
+
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
-import java.util.List;
 
 public class UserControllerTest {
 

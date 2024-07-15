@@ -1,9 +1,6 @@
-package src.test.java.org.example;
+package org.example;
 
 import org.junit.jupiter.api.*;
-import src.main.java.org.example.Calculator;
-import src.main.java.org.example.User;
-import src.main.java.org.example.UserStatistics;
 
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.Arrays;
@@ -40,7 +37,7 @@ public class UserStatisticsTest {
     @Test
     public void testCalculateAverageAgeEmptyList() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            userStatistics.calculateAverageAge(Arrays.asList());
+            userStatistics.calculateAverageAge(List.of());
         });
         assertEquals("User list cannot be null or empty.", exception.getMessage());
     }
@@ -65,7 +62,7 @@ public class UserStatisticsTest {
     @Test
     public void testCalculateTotalAgeEmptyList() {
         Exception exception = assertThrows(IllegalArgumentException.class, () -> {
-            userStatistics.calculateTotalAge(Arrays.asList());
+            userStatistics.calculateTotalAge(List.of());
         });
         assertEquals("User list cannot be null or empty.", exception.getMessage());
     }

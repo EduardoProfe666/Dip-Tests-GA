@@ -1,9 +1,6 @@
-package src.test.java.org.example;
+package org.example;
 
 import org.junit.jupiter.api.*;
-import src.main.java.org.example.AuthorizationService;
-import src.main.java.org.example.User;
-import src.main.java.org.example.UserRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 
