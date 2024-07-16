@@ -17,7 +17,7 @@ public class AuthenticationServiceTest {
 
     @Test
     public void testAuthenticateSuccess() {
-        User user = new User("joh", "john@example.com", 30, "password");
+        User user = new User("john", "john@example.com", 30, "password");
         userRepository.save(user);
         assertTrue(authenticationService.authenticate("john", "password"));
     }
