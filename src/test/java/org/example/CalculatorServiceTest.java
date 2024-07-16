@@ -4,13 +4,13 @@ import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class CalculatorTest {
+public class CalculatorServiceTest {
 
-    private Calculator calculator;
+    private CalculatorService calculator;
 
     @BeforeEach
     public void setUp() {
-        calculator = new Calculator();
+        calculator = new CalculatorService();
     }
 
     @Test

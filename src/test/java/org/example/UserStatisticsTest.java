@@ -9,11 +9,11 @@ import java.util.List;
 public class UserStatisticsTest {
 
     private UserStatistics userStatistics;
-    private Calculator calculator;
+    private CalculatorService calculator;
 
     @BeforeEach
     public void setUp() {
-        calculator = new Calculator();
+        calculator = new CalculatorService();
         userStatistics = new UserStatistics(calculator);
     }
 

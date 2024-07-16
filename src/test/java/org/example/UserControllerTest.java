@@ -12,7 +12,7 @@ public class UserControllerTest {
     private UserService userService;
     private UserRepository userRepository;
     private UserStatistics userStatistics;
-    private Calculator calculator;
+    private CalculatorService calculator;
     private AuthenticationService authenticationService;
     private AuthorizationService authorizationService;
 
@@ -20,7 +20,7 @@ public class UserControllerTest {
     public void setUp() {
         userRepository = new UserRepository();
         userService = new UserService(userRepository);
-        calculator = new Calculator();
+        calculator = new CalculatorService();
         userStatistics = new UserStatistics(calculator);
         authenticationService = new AuthenticationService(userRepository);
         authorizationService = new AuthorizationService(userRepository);

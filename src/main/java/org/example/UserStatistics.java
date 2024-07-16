@@ -3,9 +3,9 @@ package org.example;
 import java.util.List;
 
 public class UserStatistics {
-    private final Calculator calculator;
+    private final CalculatorService calculator;
 
-    public UserStatistics(Calculator calculator) {
+    public UserStatistics(CalculatorService calculator) {
         this.calculator = calculator;
     }
 
