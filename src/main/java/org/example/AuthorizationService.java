@@ -7,7 +7,7 @@ public class AuthorizationService {
         this.userRepository = userRepository;
     }
 
-    public boolean authorize(String username, String role) { 
+    public boolean authorize(String username, String role) {
         User user = userRepository.findByUsername(username);
         if (user == null) {
             return false;
