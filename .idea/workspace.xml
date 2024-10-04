@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="328e6a0f-d90b-4a01-be28-0b2d77dd567b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/AuthenticationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AuthenticationServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/AuthenticationServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +159,12 @@
       <workItem from="1721007772567" duration="70000" />
       <workItem from="1721007853424" duration="3947000" />
       <workItem from="1721091304191" duration="879000" />
-      <workItem from="1721135386004" duration="3062000" />
+      <workItem from="1721135386004" duration="3658000" />
+      <workItem from="1721525510664" duration="215000" />
+      <workItem from="1722991348383" duration="13000" />
+      <workItem from="1723588352362" duration="11000" />
+      <workItem from="1725757472804" duration="124000" />
+      <workItem from="1728001464226" duration="94000" />
     </task>
     <servers />
   </component>
